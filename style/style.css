@@ -25,11 +25,6 @@ html, body {
   margin: 0 auto;
 }
 
-.icon:hover {
-  cursor: pointer;
-  font-weight: bold;
-}
-
 .icon-name {
   position: absolute;
   top: 30px;
@@ -51,7 +46,10 @@ html, body {
   height: 75px;
 }
 
-
+.site:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
 
 .shade {
   z-index: 5;
