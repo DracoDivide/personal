@@ -1,0 +1,176 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Main Page */
+#main-page {
+  width: 100%;
+  height: 100%;
+}
+
+#name {
+  font-size: 100px;
+  font-family: fantasy;
+  color: white;
+}
+
+.description {
+  font-size: 30px;
+  font-family: fantasy;
+  color: white;
+}
+
+/* About Page */
+#about-page {
+  width: 100%;
+}
+
+#greeting {
+  left: 20%;
+  width: 50%;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  margin: 0px;
+  font-size: 50px;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  opacity: .7;
+  background: transparent;
+}
+
+#pfp {
+  position: absolute;
+}
+
+#about-description {
+  position: absolute;
+  left: 35%;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 15%;
+  margin-top: 5%;
+  background: transparent;
+  text-align: right;
+}
+
+
+
+/* Hobbies Page */
+#hobbies-page {
+
+}
+
+/* Connect Page */
+#connnect-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: black;
+  background-color: black;
+}
+
+
+/*  Icons  */
+#icon-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+}
+
+.icon {
+  position: absolute;
+  color: white;
+  width: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.icon-name {
+  position: absolute;
+  top: 60%;
+  font-size: 20px;
+  font-family: fantasy;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.site {
+  position:absolute;
+  display:inline-block;
+  color:inherit;
+  vertical-align: middle;
+  width: 75px;
+  height: 75px;
+  opacity: .8;
+}
+
+.site:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#linkedin {
+  left: 38%;
+}
+
+#github {
+  left: 43%;
+}
+
+#resume {
+  left: 48%;
+}
+
+#facebook {
+  left: 53%;
+}
+
+#discord {
+  left: 58%;
+}
+
+
+/*  Miscellaneous  */
+
+.dim {
+  position: absolute;
+  background-color: black;
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+}
+
+.parallax {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+}
+
+.parallax-text {
+  width: 100%;
+  position: absolute;
+  padding-top: 15%;
+  margin: auto;
+  text-align: center;
+}
+
+.background {
+  position:fixed;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
