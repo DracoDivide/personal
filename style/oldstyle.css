@@ -87,18 +87,18 @@ html, body {
 }
 
 #name-desc {
-  font-size: 30px;
+  font-size: 40px;
   font-family: fantasy;
   color: white;
   opacity: .7;
 }
 
 #linkedin {
-  left: 38%;
+  left: 36%;
 }
 
 #github {
-  left: 43%;
+  left: 42%;
 }
 
 #resume {
@@ -106,9 +106,9 @@ html, body {
 }
 
 #facebook {
-  left: 53%;
+  left: 54%;
 }
 
 #discord {
-  left: 58%;
+  left: 60%;
 }
